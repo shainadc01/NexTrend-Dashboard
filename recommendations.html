@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actionable Recommendations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a2e;
+            color: #ffffff;
+        }
+        header {
+            background-color: #0f3460;
+            color: #ffffff;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #16213e;
+        }
+        nav a {
+            padding: 10px 20px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 5px;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #1a73e8;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            background-color: #0f3460;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .recommendation-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .recommendation-card {
+            background-color: #1a1a2e;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .recommendation-card h3 {
+            margin-top: 0;
+        }
+        .recommendation-card ul {
+            padding-left: 20px;
+        }
+        .call-to-action {
+            text-align: center;
+            background-color: #1a73e8;
+            padding: 15px;
+            border-radius: 8px;
+            color: #ffffff;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #0f3460;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Actionable Recommendations</h1>
+    </header>
+    <nav>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="inventory.html">Inventory Management</a>
+        <a href="recommendations.html">Actionable Recommendations</a>
+    </nav>
+
+    <div class="container">
+        <div class="section">
+            <h2>Recommended Actions</h2>
+            <div class="recommendation-grid">
+                <div class="recommendation-card">
+                    <h3>SKU123 - Overstock</h3>
+                    <ul>
+                        <li>Apply a 20% discount to clear inventory.</li>
+                        <li>Run a targeted marketing campaign for winter buyers.</li>
+                        <li>Redistribute inventory to regions with higher demand.</li>
+                    </ul>
+                </div>
+                <div class="recommendation-card">
+                    <h3>SKU678 - Stockout</h3>
+                    <ul>
+                        <li>Expedite manufacturing orders to meet demand.</li>
+                        <li>Temporarily raise the price to manage remaining stock.</li>
+                        <li>Notify customers of restocking dates.</li>
+                    </ul>
+                </div>
+                <div class="recommendation-card">
+                    <h3>Upcoming Trends</h3>
+                    <ul>
+                        <li>Prepare inventory for "Oversized Suits" trend (Project +30% demand).</li>
+                        <li>Launch new arrivals aligned with "Old Money" aesthetic.</li>
+                        <li>Boost promotions for "TikTok Skinny Jeans."</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="call-to-action">
+                Ready to take action? Implement these strategies now!
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 NexTrend. Forecast Tomorrow, Optimize Today.</p>
+    </footer>
+</body>
+</html>
+
